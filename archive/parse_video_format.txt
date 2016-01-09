@@ -1,0 +1,22 @@
+C:\util>type "C:\RecordedTV\Découverte\Découverte - SRC Montreal francais HD - 2010-07-25.ts".txt
+FFmpeg version SVN-r20472-Sherpya, Copyright (c) 2000-2009 Fabrice Bellard, et al.
+  built on Nov  8 2009 05:17:17 with gcc 4.2.5 20080919 (prerelease) [Sherpya]
+  libavutil     50. 3. 0 / 50. 3. 0
+  libavcodec    52.37. 1 / 52.37. 1
+  libavformat   52.39. 2 / 52.39. 2
+  libavdevice   52. 2. 0 / 52. 2. 0
+  libavfilter    1. 7. 0 /  1. 7. 0
+  libswscale     0. 7. 1 /  0. 7. 1
+  libpostproc   51. 2. 0 / 51. 2. 0
+[mpegts @ 0x3ee050]MAX_READ_SIZE:5000000 reached
+
+Seems stream 0 codec frame rate differs from container frame rate: 59.94 (60000/1001) -> 29.97 (30000/1001)
+Input #0, mpegts, from 'C:\RecordedTV\DTcouverte\DTcouverte - SRC Montreal francais HD - 2010-07-25.ts':
+  Duration: 01:16:48.29, start: 0.116189, bitrate: 18413 kb/s
+  Program 137
+    Stream #0.0[0x30]: Video: mpeg2video, yuv420p, 1920x1080 [PAR 1:1 DAR 16:9], 17220 kb/s, 29.97 tbr, 90k tbn, 59.94 tbc
+    Stream #0.1[0x40](eng): Audio: ac3, 48000 Hz, 5.1, s16, 384 kb/s
+At least one output file must be specified
+
+C:\util>ffmpeg -i "C:\RecordedTV\Merlin\Merlin 2010-08-25\Merlin   - La Mort d'Arthur.ts"  2>"C:\RecordedTV\Merlin\Mer
+.ts".txt
