@@ -1,0 +1,1 @@
+"C:\util\mplayer\mencoder.exe" dvd://1 -dvd-device %1 -oac mp3lame -lameopts mode=2:cbr:br=96:vol=0 -ovc lavc -lavcopts vcodec=mpeg4:mbd=2:trell:autoaspect -o "%~dpn1.avi"
